@@ -1,0 +1,27 @@
+{
+  "name": "sample-ng2-module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/bundles/sampleng2module.umd.js",
+  "module": "dist/src/index.js",
+  "typings": "dist/src/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "transpileAndRollup": "$(npm bin)/tsc && $(npm bin)/rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garysteinmetz/sample-ng2-module.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/garysteinmetz/sample-ng2-module/issues"
+  },
+  "homepage": "https://github.com/garysteinmetz/sample-ng2-module#readme",
+  "devDependencies": {
+    "@angular/core": "^2.4.0",
+    "rxjs": "^5.0.1",
+    "typescript": "^2.2.1"
+  }
+}
